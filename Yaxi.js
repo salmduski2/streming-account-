@@ -14,15 +14,15 @@ Yaxi.on("ready", () => {
   setInterval(function() {
     let STREAMING = statuses[Math.floor(Math.random() * statuses.length)];
     Yaxi.user.setActivity(STREAMING, {      
-    type: "STREAMING", 
+    type: "As up Devloper", 
     url: "https://www.twitch.tv/faith"
     });
   }, 2000);
 });
 ///////////////////////
 Yaxi.on("ready", () => {
-    var join = Yaxi.channels.get(""); /// id voice
+    var join = Yaxi.channels.get("1060350370481721459"); /// id voice
     if (join) join.join();
   });
 //////////////// tokn lera da bne 
-Yaxi.login("");
+Yaxi.login("OTIyMDc5NjE3Nzc3NTMyOTQ4.GwLXI7.BUwQHXpFUpOcbr7aQouoiul9FeQmKCa8m72hhI");
